@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="14dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#1A1A1A">
+
+    <!-- Red Border Box -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- ITEM NAME -->
+        <TextView
+            android:id="@+id/textItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <!-- CATEGORY -->
+        <TextView
+            android:id="@+id/textItemCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category: Example"
+            android:textColor="#FF3B30"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- QUANTITY -->
+        <TextView
+            android:id="@+id/textItemQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qty: 0"
+            android:textSize="14sp"
+            android:textColor="#FF3B30"
+            android:layout_marginTop="4dp" />
+
+        <!-- BUTTON ROW -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="end">
+
+            <!-- EDIT BUTTON -->
+            <ImageButton
+                android:id="@+id/buttonEdit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF"
+                android:src="@android:drawable/ic_menu_edit"
+                android:contentDescription="Edit" />
+
+            <!-- DELETE BUTTON -->
+            <ImageButton
+                android:id="@+id/buttonDelete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:background="@android:color/transparent"
+                android:tint="#FF3B30"
+                android:src="@android:drawable/ic_menu_delete"
+                android:contentDescription="Delete" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

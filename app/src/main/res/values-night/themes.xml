@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.InventorySolutions" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/red_dark</item>
+        <item name="colorPrimaryVariant">@color/red_primary</item>
+        <item name="colorSecondary">@color/red_light</item>
+
+        <item name="android:colorBackground">@color/black_bg</item>
+        <item name="colorSurface">@color/black_bg</item>
+
+        <item name="android:textColor">@color/text_white</item>
+
+    </style>
+
+</resources>

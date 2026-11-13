@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.InventorySolutions" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryVariant">@color/red_dark</item>
+        <item name="colorSecondary">@color/red_light</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">@color/black_bg</item>
+        <item name="colorSurface">@color/dark_gray</item>
+        <item name="colorOnSurface">@color/text_white</item>
+
+        <!-- Text Color -->
+        <item name="android:textColor">@color/text_white</item>
+
+        <!-- Button Styles -->
+        <item name="materialButtonStyle">@style/RedButtonStyle</item>
+
+    </style>
+
+    <!-- Red Button Style -->
+    <style name="RedButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/red_primary</item>
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+</resources>
